@@ -69,6 +69,20 @@ Installing collected packages: flowers-tulip
 Successfully installed flowers-tulip-1.0.0
 
 # Finally, subcommand has been installed
+(venv) $ flowers
+Usage: flowers [OPTIONS] COMMAND [ARGS]...
+
+  Namespace for extra commands
+
+Options:
+  -v, --verbose [NONE|DEBUG|INFO|WARNING|ERROR]
+                                  to set log level  [default: NONE]
+  -h, --help                      Show this message and exit.
+
+Commands:
+  tulip  Command Group  # tulip is here!!
+
+# tulip is a command group
 (venv) $ flowers tulip
 Usage: flowers tulip [OPTIONS] COMMAND [ARGS]...
 
