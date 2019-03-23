@@ -7,6 +7,11 @@ This repository is a main package template and plugin package template is [here]
 
 ## How to use
 
+This tutorial create two packages `flowers` and `flowers-tulip`.  
+The `flowers` is also namespace command like `aws` command or `gcloud` command.
+The `flowers-tulip` package is for `tulip` subcommand like `aws ec2` command or `gcloud compute`.
+You can also add other commands such as `rose` or `dandelion` by developing a plugin.
+
 ### Installing a namespace command
 
 ```shell
